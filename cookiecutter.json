@@ -1,0 +1,10 @@
+{
+  "full_name": "Thomas Fors",
+  "email": "tom@junk.com",
+  "project_name": "max10_project",
+  "directory_name": "{{cookiecutter.project_name}}",
+  "purpose": "Provide a basic MAX10 FPGA Dev Kit project.",
+  "date": "{% now 'local', '%B %d, %Y' %}",
+  "time": "{% now 'local', '%H:%M:%S' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
+}

@@ -1,0 +1,7 @@
+
+QUARTUS_VERSION = "16.0"
+DATE = "{{cookiecutter.time}}  {{cookiecutter.date}}"
+
+# Revisions
+
+PROJECT_REVISION = "{{cookiecutter.project_name}}"
